@@ -86,7 +86,7 @@ if __name__ == '__main__':
         order by year(date), month(date)""").collect()
     print(avg_price_by_month)
 
-    # Bonus Task: Install matplot lib: sudo easy_install matplotlib
+    # Bonus Task: Install matplot lib: sudo apt-get install python-matplotlib
     # Use the Python matplotlib module to plot the property price
     # changes month-over-month across the entire dataset.
     print("------- ******* Bonus Task ******* -------")
